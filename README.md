@@ -4,7 +4,8 @@ This code is an implementation of the RSA encryption and decryption algorithm. T
 
 The program works as follows:
 1. The user is prompted to choose between encryption or decryption.
-2. If the user chooses encryption: \n
+2. If the user chooses encryption:
+
   • The user is prompted to enter the path of the plaintext file to encrypt.
   • The plaintext is read from the file.
   • A new RSA key pair is generated.
@@ -16,7 +17,9 @@ The program works as follows:
   • The plaintext is signed using the private key.
   • The user is prompted to enter a name for the signature file.
   • The signature is saved to a file.
+  
 3. If the user chooses decryption:
+
   • The user is prompted to enter the name of the key pair to use.
   • The key pair is retrieved from the operating system.
   • The user is prompted to enter the name of the ciphertext file to decrypt.
