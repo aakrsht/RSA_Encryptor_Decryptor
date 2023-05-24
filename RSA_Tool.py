@@ -4,7 +4,7 @@ from termcolor import colored
 from prettytable import PrettyTable
 
 def main():
-    # Prints a blue table with the title "Cryptography Assignment" and "RSA ENCRYPTOR/DECRYPTOR"
+    # Prints a blue table with the title "Cryptography Tool" and "RSA ENCRYPTOR/DECRYPTOR"
     print("\n\n")
     a = PrettyTable()
     a.field_names = ["RSA Tool"]
